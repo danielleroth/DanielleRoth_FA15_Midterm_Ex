@@ -9,25 +9,25 @@
 // On click Night Button....
 
 $('.night-btn').click(function() {
-
+    
+// Add Night Class
     $('body').addClass('night');
+    
+// Remove Day Class
     $('body').removeClass('day');
 
 });
-
-  
-  // Remove Day Class
-    
-  // Add Night Class
 
 
 
 // On click Day Button....
 $('.day-btn').click(function() {
 
+// Add Day Class
     $('body').addClass('day');
+
+// Remove Night Class
     $('body').removeClass('night');
 
 });
 
-  // Remove Night Class
