@@ -6,11 +6,28 @@
 // eval() : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
 
 // Generate random number between for three images
+var maxRand = 3;
+var numRand = Math.floor(Math.random() * maxRand + 1);
 
+console.log(numRand);
 
+eval(numRand = 3)
 
 // Create & Store 3 different greetings. You choose. 
+if( numRand = 1) {
 
+    $('body').addClass('bg0');
+}
+
+if( numRand = 2) {
+
+    $('body').addClass('bg1');
+}
+
+if( numRand = 3) {
+
+    $('body').addClass('bg2');
+}
 
 
 
